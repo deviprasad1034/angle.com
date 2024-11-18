@@ -1,0 +1,12 @@
+hive> set hive.support.concurrency=true;
+
+hive> set hive.enforce.bucketing=true;
+
+hive> set hive.exec.dynamic.partition.mode=nonstrict;
+
+hive> set.hive.txn.manager=org.apache.hadoop.hive.ql.lockmgr.DbTxnManager;
+
+hive> set hive.compactor.initiator.on=true;
+
+hive> set hive.compactor.worker.threds=1;
+
